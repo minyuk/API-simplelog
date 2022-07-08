@@ -1,7 +1,5 @@
 package com.simplelog.controller;
 
-import com.simplelog.exception.InvalidRequest;
-import com.simplelog.exception.PostNotFound;
 import com.simplelog.exception.SimplelogException;
 import com.simplelog.response.ErrorResponse;
 import lombok.extern.slf4j.Slf4j;

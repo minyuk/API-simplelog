@@ -1,12 +1,10 @@
 package com.simplelog.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.jayway.jsonpath.JsonPath;
 import com.simplelog.domain.Post;
 import com.simplelog.repository.PostRepository;
 import com.simplelog.request.PostCreate;
 import com.simplelog.request.PostEdit;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

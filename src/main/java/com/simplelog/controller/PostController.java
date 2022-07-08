@@ -1,7 +1,5 @@
 package com.simplelog.controller;
 
-import com.simplelog.domain.Post;
-import com.simplelog.exception.InvalidRequest;
 import com.simplelog.request.PostCreate;
 import com.simplelog.request.PostEdit;
 import com.simplelog.request.PostSearch;
@@ -9,9 +7,6 @@ import com.simplelog.response.PostResponse;
 import com.simplelog.service.PostService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
-import org.springframework.data.web.PageableDefault;
 import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
